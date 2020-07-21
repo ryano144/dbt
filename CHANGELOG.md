@@ -9,6 +9,7 @@
 - Add more helpful error message for misconfiguration in profiles.yml ([#2569](https://github.com/fishtown-analytics/dbt/issues/2569), [#2627](https://github.com/fishtown-analytics/dbt/pull/2627))
 ### Fixes
 - Adapter plugins can once again override plugins defined in core ([#2548](https://github.com/fishtown-analytics/dbt/issues/2548), [#2590](https://github.com/fishtown-analytics/dbt/pull/2590))
+- Compile assets as part of docs generate ([#2072](https://github.com/fishtown-analytics/dbt/issues/2072), [#2623](https://github.com/fishtown-analytics/dbt/pull/2623/files#))
 
 Contributors:
 - [@brunomurino](https://github.com/brunomurino) ([#2437](https://github.com/fishtown-analytics/dbt/pull/2581))
