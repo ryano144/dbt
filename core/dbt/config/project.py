@@ -402,7 +402,7 @@ class Project:
         )
 
         docs_paths: List[str] = value_or(cfg.docs_paths, all_source_paths)
-        asset_paths: List[str] = value_or(cfg.asset_paths, ['assets'])
+        asset_paths: List[str] = value_or(cfg.asset_paths, [])
         target_path: str = value_or(cfg.target_path, 'target')
         clean_targets: List[str] = value_or(cfg.clean_targets, [target_path])
         log_path: str = value_or(cfg.log_path, 'logs')
